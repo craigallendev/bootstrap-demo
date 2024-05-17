@@ -16,6 +16,10 @@ body {
 
 .site-wide-alert {
     margin: 0;
+    border-radius: 0;
+    padding: 5px 15px;
+    background-color: #ffff0f;
+    border-color: #ffff0f;
 }
 
 .callout-container {
@@ -35,6 +39,7 @@ body {
 .row {
     padding: 0;
     margin: 0;
+}
 
 .opaque-overlay {
     position: absolute;
