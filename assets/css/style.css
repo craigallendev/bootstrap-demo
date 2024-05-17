@@ -1,3 +1,100 @@
 body {
     font-family: "Noto Sans Mono", monospace, 'Times New Roman';
 }
+
+.alert-container {
+
+}
+
+.callout-container {
+    height: 100vh;
+    background: url("../images/whiskey-background.jpeg") no-repeat bottom right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.qoutes-container {
+
+}
+
+.features-container {
+
+}
+
+/* Block Dividers */
+
+.block-divider {
+    width: 90px;
+    height: 10px;
+    border: 0;
+    border-radius: 15%;
+    background-color: whitesmoke;
+}
+
+.block-divider--color {
+    background-color: #e2e8F0;
+}
+
+.block-divider--short {
+    width: 45px;
+}
+
+/* Jumbortrom */
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+   color: white;
+   font-weight: bold;
+   margin-bottom: 30px;
+}
+
+.jumbotron .lead {
+    color: white;
+}
+
+.jumbotron small {
+    font-size: 70%;
+    font-style: bold;
+    color: whitesmoke;
+}
+
+/* Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--color {
+    color: whitesmoke;
+    background-color: #f05F40;
+    border-color: #f05F40;
+}
+
+.btn--color:hover,
+.btn--color:active,
+.btn--color:focus,
+.btn--color:active:focus {
+    background-color: #981d01;
+    border-color: #981d01;
+    color: white;
+}
